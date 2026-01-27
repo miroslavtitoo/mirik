@@ -202,7 +202,7 @@ body {
 .profile-header-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .profile-name {
@@ -225,6 +225,7 @@ body {
 .profile-icons {
     display: flex;
     gap: 12px;
+    margin-top: 6px;
 }
 
 .profile-icon-button {
@@ -353,6 +354,7 @@ body {
     height: 56px;
     border-radius: 8px;
     object-fit: cover;
+    object-position: center 20%;
     margin-right: 16px;
     flex-shrink: 0;
 }
