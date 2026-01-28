@@ -660,7 +660,7 @@ body {
     border-radius: 20px 20px 0 0;
     z-index: 999;
     transition: transform 0.3s ease;
-    max-height: calc(100vh - 400px);
+    height: calc(100vh - 310px);
     overflow: hidden;
     display: flex;
     flex-direction: column;
