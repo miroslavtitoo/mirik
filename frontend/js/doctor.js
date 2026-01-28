@@ -71,7 +71,7 @@ bottomSheet.addEventListener('touchmove', (e) => {
         if (isSheetOpen) {
             bottomSheet.style.transform = `translateY(${clampedDelta}px)`;
         } else {
-            bottomSheet.style.transform = `translateY(calc(100% - 220px + ${clampedDelta}px))`;
+            bottomSheet.style.transform = `translateY(calc(100% - 270px + ${clampedDelta}px))`;
         }
     }
 });
